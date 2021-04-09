@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('images/coder.jpg');
+}
+
+.main {
+	background-color: #7868e6;
+	color: white;
+	width: 50vw;
+	min-height: 100vh;
+	margin: 10px auto 10px auto;
+	padding: 35px 50px 35px 50px;
+	border-radius: 25px;
+	box-shadow: 10px 10px 68px 5px rgba(0, 0, 0, 0.8);
+}
+
+.heading {
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Black Ops One', cursive;
+	color: #f8f1f1;
+	letter-spacing: 3px;
+	pointer-events: none;
+}
+
+.textLabel {
+	font-weight: bold;
+	color: #ce1212;
+}
+
+.form-control {
+	transition: 0.3s ease-in-out;
+}
+
+.form-control:hover {
+	border-color: black;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.75), 0 0 10px rgba(0, 0, 0);
+}
+
+.form-control:focus {
+	border-color: black;
+	height: 100px;
+}
+
+.btn-group {
+	background-color: #7868e6;
+	margin-bottom: 4px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.btn {
+	background-color: #ffefcf;
+	border-color: #ffefcf;
+	color: black;
+}
+
+.bottomButtons {
+	text-align: center;
+}
+
+.submitButton {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.download {
+	cursor: pointer;
+	display: block;
+	float: right;
+}
+
+.download :hover {
+	transition: 0.5s ease;
+	background-color: #eff8ff;
+	color: black;
+	border-radius: 5px;
+}
+
+.textLabel2 {
+	pointer-events: none;
+	font-family: 'Trocchi', serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #fff600;
+}
+
+.content {
+	overflow-wrap: break-word;
+}

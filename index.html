@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Bootstrap CDN -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+			crossorigin="anonymous"
+		/>
+
+		<!-- Font Awesome Icons CDN -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
+		<!-- Google Fonts CDN -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Trocchi&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Prism.js CSS -->
+		<link rel="stylesheet" href="prism.css" />
+
+		<link rel="stylesheet" href="styles.css" />
+		<title>To-Code</title>
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			href="https://img.icons8.com/officel/80/000000/property-script.png"
+		/>
+	</head>
+	<body>
+		<div class="main">
+			<div class="heading">
+				<h2>
+					CODER'S PAGE <i class="fa fa-file-code-o" aria-hidden="true"></i>
+				</h2>
+			</div>
+
+			<form
+				class="form-floating"
+				action="submitPage.html"
+				method="GET"
+				target="_blank"
+			>
+				<div class="form-floating mb-4">
+					<textarea
+						class="form-control"
+						placeholder="Leave a comment here"
+						name="problemStatement"
+						id="problemStatement"
+						required
+					></textarea>
+					<label for="problemStatement" class="textLabel"
+						>Problem Statement</label
+					>
+				</div>
+
+				<div class="form-floating mb-4">
+					<textarea
+						class="form-control"
+						placeholder="Leave a comment here"
+						id="constraints"
+						name="constraints"
+					></textarea>
+					<label for="constraints" class="textLabel">Constraints</label>
+				</div>
+
+				<div class="form-floating mb-4">
+					<textarea
+						class="form-control"
+						placeholder="Leave a comment here"
+						id="inputFormat"
+						name="inputFormat"
+					></textarea>
+					<label for="inputFormat" class="textLabel">Input Format</label>
+				</div>
+
+				<div class="form-floating mb-4">
+					<textarea
+						class="form-control"
+						placeholder="Leave a comment here"
+						id="outputFormat"
+						name="outputFormat"
+					></textarea>
+					<label for="outputFormat" class="textLabel">Output Format</label>
+				</div>
+
+				<div class="form-floating mb-4">
+					<textarea
+						class="form-control"
+						placeholder="Leave a comment here"
+						id="sampleInput"
+						name="sampleInput"
+					></textarea>
+					<label for="sampleInput" class="textLabel">Sample Input</label>
+				</div>
+
+				<div class="form-floating mb-4">
+					<textarea
+						class="form-control"
+						placeholder="Leave a comment here"
+						id="sampleOutput"
+						name="sampleOutput"
+					></textarea>
+					<label for="sampleOutput" class="textLabel">Sample Output</label>
+				</div>
+
+				<div
+					class="btn-group"
+					role="group"
+					aria-label="Basic radio toggle button group"
+				>
+					<input
+						type="radio"
+						class="btn-check"
+						name="codeLanguage"
+						id="c"
+						autocomplete="off"
+						value="c"
+						checked
+					/>
+					<label class="btn btn-warning shadow-none" for="c">C</label>
+
+					<input
+						type="radio"
+						class="btn-check"
+						name="codeLanguage"
+						id="cpp"
+						autocomplete="off"
+						value="cpp"
+					/>
+					<label class="btn btn-warning shadow-none" for="cpp">C++</label>
+
+					<input
+						type="radio"
+						class="btn-check"
+						name="codeLanguage"
+						id="java"
+						autocomplete="off"
+						value="java"
+					/>
+					<label class="btn btn-warning shadow-none" for="java">JAVA</label>
+
+					<input
+						type="radio"
+						class="btn-check"
+						name="codeLanguage"
+						id="python"
+						autocomplete="off"
+						value="python"
+					/>
+					<label class="btn btn-warning shadow-none" for="python">PYTHON</label>
+				</div>
+
+				<div class="form-floating mb-4">
+					<textarea
+						class="form-control"
+						placeholder="Leave a comment here"
+						id="code"
+						name="code"
+						style="height: 500px"
+						required
+					></textarea>
+					<label for="code" class="textLabel">Code</label>
+				</div>
+
+				<div class="bottomButtons">
+					<input
+						class="btn btn-dark shadow-none submitButton"
+						type="reset"
+						value="Reset"
+					/>
+					<input
+						class="btn btn-dark shadow-none submitButton"
+						type="submit"
+						value="Submit"
+					/>
+				</div>
+			</form>
+		</div>
+		<script src="prism.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+			integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+			integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
